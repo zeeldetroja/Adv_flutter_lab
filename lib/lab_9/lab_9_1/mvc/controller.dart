@@ -21,6 +21,8 @@ class StudentController extends GetxController{
       studentlist.add(StudentModel().fromMap(element));
     }
 
+
+
     return studentlist;
 
   }
