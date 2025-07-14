@@ -1,0 +1,6 @@
+class ApiService{
+  String BaseURL = '';
+
+
+
+}
