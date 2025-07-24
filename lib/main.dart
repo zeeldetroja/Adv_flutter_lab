@@ -1,3 +1,4 @@
+import 'package:adv_flutter_lab/lab_11/mvc/view.dart';
 import 'package:adv_flutter_lab/lab_8/lab_8_3/view.dart';
 import 'package:adv_flutter_lab/utils/import_export.dart';
 
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: ExceptionView(),
+      home: UserView(),
     );
   }
 }

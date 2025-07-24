@@ -6,8 +6,6 @@ class ExceptionView extends StatelessWidget {
   TextEditingController a = TextEditingController();
   TextEditingController b = TextEditingController();
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,7 +14,7 @@ class ExceptionView extends StatelessWidget {
         child: Column(
           children: [
             TextFormField(
-              decoration: InputDecoration(labelText: 'Enter value of a :',),
+              decoration: InputDecoration(labelText: 'Enter value of a :'),
               controller: a,
             ),
             SizedBox(height: 20),
@@ -24,10 +22,13 @@ class ExceptionView extends StatelessWidget {
               decoration: InputDecoration(labelText: 'Enter value of b :'),
               controller: b,
             ),
-            SizedBox(height: 20,),
-            ElevatedButton(onPressed: () {
-              Get.snackbar('title', 'message');
-            }, child: Text('Submit'))
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Get.snackbar('title', 'message');
+              },
+              child: Text('Submit'),
+            ),
           ],
         ),
       ),
