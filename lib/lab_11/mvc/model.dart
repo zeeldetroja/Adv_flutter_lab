@@ -1,5 +1,5 @@
 class Model {
-  int? id;
+  String? id;
   String? name;
 
   Model({this.id, this.name});
