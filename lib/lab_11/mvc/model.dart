@@ -5,9 +5,8 @@ class Model {
   Model({this.id, this.name});
 
   factory Model.fromJson(Map<String, dynamic> json) {
-    return Model(
-      id: json['id'],
-      name: json['name'],
-    );
+    return Model(id: json['id'], name: json['name']);
   }
+
+
 }

@@ -14,7 +14,7 @@ class ApiService{
   }
 
   Future<http.Response> deleteUser({dynamic id}) async {
-    return await http.delete(Uri.parse(BaseURL));
+    return await http.delete(Uri.parse(BaseURL + '$id'));
   }
 
 }

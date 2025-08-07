@@ -10,7 +10,8 @@ void main() async {
     await Future.delayed(Duration(seconds: 5)).timeout(
       Duration(seconds: 2),
       onTimeout: () {
-        throw TimeoutException('dvdafdafjadvf');
+        throw TimeoutException('Timeout Exception');
+        // throw DemoException();
       },
     );
     print('Enter b:');

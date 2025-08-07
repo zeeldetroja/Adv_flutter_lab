@@ -32,7 +32,10 @@ class _UserViewState extends State<UserView> {
               title: Text(user.id.toString()),
               subtitle: Text(user.name.toString()),
               trailing: IconButton(onPressed: () {
-                
+                cont.deleteUser(index);
+                setState(() {
+                  cont.fetchUsers();
+                });
               }, icon: Icon(Icons.delete)),
             );
           },
