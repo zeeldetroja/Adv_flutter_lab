@@ -33,6 +33,10 @@ dependencies:
   get: ^4.7.2
   sqflite: ^2.4.2
   http: ^1.4.0
+  permission_handler:
+#  geolocator:
+#  camera:
+  path_provider:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

@@ -17,7 +17,6 @@ export 'package:adv_flutter_lab/lab_10/getx_crud/database/my_database.dart';
 export 'package:adv_flutter_lab/lab_9/lab_9_1/mvc/model.dart';
 export 'package:adv_flutter_lab/lab_10/getx_crud/database/student_repo.dart';
 export 'package:adv_flutter_lab/lab_9/lab_9_1/mvc/view.dart';
-// export 'package:get/get_connect/http/src/response/response.dart';
 
 
 
